@@ -42,6 +42,12 @@ function Cmd(cmd_to_execute, undo, target,...) end
 ---@param cmd_to_execute string # cmd_to_execute [,undo [,target]]
 ---@param undo? handle
 ---@param target? handle
+function CmdIndirect(cmd_to_execute, undo, target,...) end
+
+---@return nothing
+---@param cmd_to_execute string # cmd_to_execute [,undo [,target]]
+---@param undo? handle
+---@param target? handle
 function CmdIndirectWait(cmd_to_execute, undo, target,...) end
 
 ---@return string:OsType
